@@ -10,3 +10,10 @@ current=id;
 
 
 }
+
+
+function modal_content(id){
+    var title=document.getElementById('modal_title');
+    title.innerText("id");
+    
+}
