@@ -5,13 +5,15 @@
     height:380px;
     float: left;
     margin:2em;
-    box-shadow:2px 2px 2px;
+    box-shadow:3px 3px 2px;
     cursor: pointer;
-}
+    
+    transition-duration:0.3s; }
 
 .subject_box:hover{
-    box-shadow:10px 10px 5px ;
-}
+    box-shadow:15px 15px 20px ;
+    transform:scale(1.0001);
+    }
 
 .subject_main{
     height:150px;
@@ -54,6 +56,7 @@ cursor: pointer;
     position: relative;
     top:0px;
     font-size:1.5em;
+    text-align:left;
 }
 .sb{
    margin:auto;
@@ -72,3 +75,6 @@ cursor: pointer;
 .syllabus_content{
     padding:10px;
 }
+
+.closer{float:right;
+padding:3px;}
