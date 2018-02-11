@@ -78,3 +78,12 @@ cursor: pointer;
 
 .closer{float:right;
 padding:3px;}
+
+.syllabus_content li:hover{
+    text-decoration:none;
+    font-weight:0;
+    
+}
+.syllabus_content li{
+    font-size:1em;
+}
