@@ -5,13 +5,13 @@
     height:380px;
     float: left;
     margin:2em;
-    box-shadow:3px 3px 2px;
+    box-shadow:5px 5px 15px;
     cursor: pointer;
     
     transition-duration:0.3s; }
 
 .subject_box:hover{
-    box-shadow:15px 15px 20px ;
+    box-shadow:15px 15px 10px ;
     transform:scale(1.0001);
     }
 
@@ -87,3 +87,18 @@ padding:3px;}
 .syllabus_content li{
     font-size:1em;
 }
+
+.modal-body h5{
+    text-align:justify;
+}
+
+.blue{
+    background-color:#4A90E2;
+}
+
+.orange{
+    background-color:#AB47BC;
+}
+
+
+
